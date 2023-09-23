@@ -18,7 +18,7 @@ function Page() {
   const cards = data.map((item) => {
     return (
       < Cards key = {item.key} 
-               {...item}
+               item= {item}
                   />
           
     )
